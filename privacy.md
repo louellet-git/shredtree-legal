@@ -47,7 +47,12 @@ advertising.
 - Service providers that hold it for us: Supabase (database and sign-in),
   Brevo (sends sign-in emails), Cloudflare (videos and encrypted backups) and
   GitHub (runs the backup job). Those the app connects to also see technical
-  data such as your IP address.
+  data such as your IP address. Supabase, Brevo and Cloudflare process your
+  data only to run ShredTree, and their data-processing agreements bind them to
+  protect it at least as well as this policy does. GitHub runs the backup job on
+  its computers under its terms of service: your data passes through the job
+  while the backup is made and encrypted, and the backup is stored with
+  Cloudflare.
 
 ## Deleting your account
 
